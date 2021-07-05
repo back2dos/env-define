@@ -16,6 +16,8 @@ You can then use them like so:
 #end
 ```
 
+Additionally, there's a define called `env.os.<platform>`, where `platform` is the lower cased result of [`Sys.systemName()`](https://api.haxe.org/Sys.html#systemName). Use at your own risk.
+
 ## Downsides
 
 Ideally, functionality like this would come directly from the compiler, but for the time being this library can do the trick with certain limitations:
